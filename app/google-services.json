@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "522619189133",
+    "firebase_url": "https://dbnesflos-default-rtdb.firebaseio.com",
+    "project_id": "dbnesflos",
+    "storage_bucket": "dbnesflos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522619189133:android:0cc3eb7df2edfb3fa36fc4",
+        "android_client_info": {
+          "package_name": "com.example.nesflos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522619189133-1a051h4g01amqjo3fdqlmiavjdbcdsta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nesflos",
+            "certificate_hash": "269f36efcc02412cf27084a9917945d85a911a1b"
+          }
+        },
+        {
+          "client_id": "522619189133-nk4f8rdqpv9d917hqki5qdoim9qmgk49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_EItrY33vGyk9TRFiYrb0xuY8FHA28qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522619189133-nk4f8rdqpv9d917hqki5qdoim9qmgk49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

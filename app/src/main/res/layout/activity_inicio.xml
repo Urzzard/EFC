@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:id="@+id/ivDos"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toStartOf="@+id/ivTres"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ivUno"
+        app:layout_constraintTop_toBottomOf="@+id/svBusqueda"
+        app:srcCompat="@drawable/pelicuatro" />
+
+    <ImageView
+        android:id="@+id/ivUno"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pelicinco" />
+
+    <ImageView
+        android:id="@+id/ivTres"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pelidos" />
+
+    <ImageView
+        android:id="@+id/ivSiete"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="51dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCuatro"
+        app:srcCompat="@drawable/pelisiete" />
+
+    <ImageView
+        android:id="@+id/ivOcho"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="44dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toStartOf="@+id/ivNueve"
+        app:layout_constraintStart_toEndOf="@+id/ivSiete"
+        app:layout_constraintTop_toBottomOf="@+id/ivCinco"
+        app:srcCompat="@drawable/pelitres" />
+
+    <ImageView
+        android:id="@+id/ivCinco"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="44dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toStartOf="@+id/ivSeis"
+        app:layout_constraintStart_toEndOf="@+id/ivCuatro"
+        app:layout_constraintTop_toBottomOf="@+id/ivDos"
+        app:srcCompat="@drawable/peliocho" />
+
+    <ImageView
+        android:id="@+id/ivCuatro"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivUno"
+        app:srcCompat="@drawable/pelinueve" />
+
+    <ImageView
+        android:id="@+id/ivNueve"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSeis"
+        app:srcCompat="@drawable/peliuno" />
+
+    <ImageView
+        android:id="@+id/ivSeis"
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="abrirvideo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTres"
+        app:srcCompat="@drawable/peliseis" />
+
+    <TextView
+        android:id="@+id/tvBien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="116dp"
+        android:text=''
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/svBusqueda"
+        android:layout_width="159dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBien" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
